@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             Human human = new Human();
 
             human.Greetings();
@@ -82,6 +83,7 @@
 
         public Animal()
         {
+            Console.WriteLine("Hello, World!");
 
         }
     }
