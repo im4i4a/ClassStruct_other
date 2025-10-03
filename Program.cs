@@ -83,7 +83,7 @@
 
         public Animal()
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine($"{name}   {age}   {type}");
 
         }
     }
